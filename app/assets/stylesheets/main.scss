@@ -1,0 +1,12 @@
+@media (min-width: 320px) {
+  body {
+    background: blue;
+  }
+}
+
+// This applies from 600px onwards
+@media (min-width: 600px) {
+  body {
+    background: green;
+  }
+}
