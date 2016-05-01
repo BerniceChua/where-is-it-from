@@ -68,7 +68,7 @@ $(function () {
       };
 
       img.src = imgURL;
-      document.body.appendChild(img);
+      $( "#responseDiv" ).append(img);
     }
 
 
