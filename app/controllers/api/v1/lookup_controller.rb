@@ -16,6 +16,12 @@ class Api::V1::LookupController < ApplicationController
 
     vision_response = service.annotate_image(batch_annotate)
 
+    # def clearUp(string)
+    # end
+
+    # @brands = Brand.all
+    # binding.pry
+
     # If all goes well...
     response = {}
     if vision_response.responses[0].text_annotations
@@ -25,6 +31,19 @@ class Api::V1::LookupController < ApplicationController
         response["logo"] = vision_response.responses[0].logo_annotations[0].description
     end
 
-    render json: response
+    if (response['logo'])
+        brand_name = response['logo']
+
+        if Brand.where(:name => brand_name ).exists?
+            render partial: '_good', local { brand_name: brand_name }
+        else
+            @brands = Brand.limit(3)
+            render partial: '_alternative', local { brand_name: brand_name }
+            #send altervative items
+        end
+    else
+        # Code for only text detected from images with no logo.
+    end
+    # render json: response
   end
 end
