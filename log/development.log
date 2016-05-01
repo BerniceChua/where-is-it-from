@@ -1,5 +1,3 @@
-
-
 Started GET "/" for ::1 at 2016-04-30 20:29:23 -0700
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by MainController#index as HTML
@@ -906,10 +904,416 @@ Success - #<Google::Apis::VisionV1::BatchAnnotateImagesResponse:0x007fb3f8d8e588
            #<Google::Apis::VisionV1::Vertex:0x007fb3f8d84128 @x=677, @y=54>,
            #<Google::Apis::VisionV1::Vertex:0x007fb3fb99aac8 @x=677, @y=282>,
            #<Google::Apis::VisionV1::Vertex:0x007fb3fb9994c0 @x=43, @y=282>]>,
+>>>>>>> 8f4884732eeee396dedc2e8ac13ce4e88d676b52
        @description="Cadbury",
        @mid="/m/03hnyy",
        @score=0.79896861>],
     @text_annotations=
+<<<<<<< HEAD
+     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fc0093427d8
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc0093286f8
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc00930e1b8 @x=157, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0092f6ce8 @x=591, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0092db718 @x=591, @y=322>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0092bfae0 @x=157, @y=322>]>,
+       @description="DAIRY MILK\nSHORtcake\n",
+       @locale="en">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc0092a28a0
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc009288720
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc00926e4b0 @x=157, @y=220>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009252968 @x=361, @y=184>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00923af98 @x=374, @y=258>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00921fc20 @x=170, @y=294>]>,
+       @description="DAIRY">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc009202ad0
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc0091e4710
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc0091ce7f8 @x=381, @y=170>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0091b2d50 @x=577, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0091974d8 @x=591, @y=217>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00917fd60 @x=395, @y=252>]>,
+       @description="MILK">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc009163098
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc009145188
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc00912b0d0 @x=270, @y=296>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0091139d0 @x=394, @y=285>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0091105a0 @x=396, @y=311>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0090f4f80 @x=272, @y=322>]>,
+       @description="SHORtcake">]>]>
+
+Completed 200 OK in 1019ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/v1/lookup/image" for 127.0.0.1 at 2016-05-01 01:44:41 -0700
+Processing by Api::V1::LookupController#image as JSON
+  Parameters: {"image"=>#<ActionDispatch::Http::UploadedFile:0x0056434ebdb5b8 @tempfile=#<Tempfile:/tmp/RackMultipart20160501-13082-mj6tue.jpg>, @original_filename="IMG_5233.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image\"; filename=\"IMG_5233.jpg\"\r\nContent-Type: image/jpeg\r\n">, "go"=>"Submit"}
+Sending HTTP post https://vision.googleapis.com/v1/images:annotate?key=AIzaSyBecwRYnnAnvQ2yPPRt3wTgcJHhaef6oSQ
+200
+#<Hurley::Response POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyBecwRYnnAnvQ2yPPRt3wTgcJHhaef6oSQ == 200 (13151 bytes) 4833ms>
+Success - #<Google::Apis::VisionV1::BatchAnnotateImagesResponse:0x00564351a91290
+ @responses=
+  [#<Google::Apis::VisionV1::AnnotateImageResponse:0x00564351c6a8f0
+    @text_annotations=
+     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fc008f57c90
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x00564351d689f0
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x00564351d296d8 @x=479, @y=165>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc008fa6ef8 @x=2701, @y=165>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc008f8b1d0 @x=2701, @y=2290>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc008f6eee0
+            @x=479,
+            @y=2290>]>,
+       @description=
+        "ICHO\nhazelnut\nchunk\nMilk chocolate with\nhazelnuts & sea salt\nMADE WITH\n53%\nORGANIC\nFAIR TRADE\nCHOCOLATE\nCERTIFIED\nINGREDIENTS CACA O\nNET WT 2.5 OZ (70g)\n",
+       @locale="en">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc008ff5c88
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc008fc3558
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc008fc10a0 @x=479, @y=165>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0090456c0 @x=901, @y=165>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00902dfc0 @x=901, @y=1373>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009012860
+            @x=479,
+            @y=1373>]>,
+       @description="ICHO">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc0090959e0
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc009063350
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc009060f38 @x=1289, @y=2287>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0090e9428 @x=1281, @y=1496>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0090ce0b0 @x=1464, @y=1494>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0090b2798
+            @x=1472,
+            @y=2285>]>,
+       @description="hazelnut">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc0091396a8
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc009103418
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc009101028 @x=1466, @y=1732>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0091897e8 @x=1647, @y=1732>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00916db88 @x=1647, @y=2288>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0091562a8
+            @x=1466,
+            @y=2288>]>,
+       @description="chunk">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc0091d9608
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc0091a74f0
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc0091a5768 @x=1684, @y=2285>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00922a080 @x=1682, @y=2156>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00920e6c8 @x=1751, @y=2155>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0091f71d0
+            @x=1753,
+            @y=2284>]>,
+       @description="Milk">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00927a1c0
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc009260040
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc009245f38 @x=1682, @y=2126>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0092ca6e8 @x=1677, @y=1822>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0092b2ed0 @x=1746, @y=1821>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009297608
+            @x=1751,
+            @y=2125>]>,
+       @description="chocolate">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00931e540
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc0093004f0
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc0092e6410 @x=1676, @y=1791>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0093667f0 @x=1674, @y=1651>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00934eda8 @x=1743, @y=1650>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009337518
+            @x=1745,
+            @y=1790>]>,
+       @description="with">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc0093d4c78
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00939cbc0
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc0093816e0 @x=1765, @y=2285>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009449d48 @x=1760, @y=1973>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009412f78 @x=1829, @y=1972>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0093f7750
+            @x=1834,
+            @y=2284>]>,
+       @description="hazelnuts">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00949ea28
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc0094803e8
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc0094662b8 @x=1761, @y=1949>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0094f2970 @x=1760, @y=1903>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0094d6e00 @x=1829, @y=1902>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0094bb6f0
+            @x=1830,
+            @y=1948>]>,
+       @description="&">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00954a378
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00952c2b0
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc00950e080 @x=1759, @y=1880>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00959e860 @x=1757, @y=1780>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009582ea8 @x=1826, @y=1779>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009567310
+            @x=1828,
+            @y=1879>]>,
+       @description="sea">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc0095f1da8
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc0095bb690
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc0095b97a0 @x=1757, @y=1751>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009645e30 @x=1755, @y=1630>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00962e348 @x=1824, @y=1629>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00960ec28
+            @x=1826,
+            @y=1750>]>,
+       @description="salt">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00969d6a8
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc009667210
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc009664e48 @x=1979, @y=2288>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0096f1708 @x=1975, @y=2141>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0096d5f08 @x=2028, @y=2140>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0096ba500
+            @x=2032,
+            @y=2287>]>,
+       @description="MADE">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc0097453f8
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00970f3c0
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc00970d228 @x=1974, @y=1981>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009799840 @x=2026, @y=1981>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00977e108 @x=2026, @y=2105>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009762a20
+            @x=1974,
+            @y=2105>]>,
+       @description="WITH">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc0097edd28
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc0097d0070
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc0097b6080 @x=2000, @y=1670>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009846928 @x=1992, @y=1491>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00982b4e8 @x=2070, @y=1488>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00980bf80
+            @x=2078,
+            @y=1667>]>,
+       @description="53%">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00988af60
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00986cee8
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc009862cb8 @x=2036, @y=2255>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0098df678 @x=2025, @y=2011>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0098dc270 @x=2074, @y=2009>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0098c0b38
+            @x=2085,
+            @y=2253>]>,
+       @description="ORGANIC">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc009933ac0
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc009915b60
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc0098fba58 @x=2063, @y=1909>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0098f8380 @x=2062, @y=1847>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00997d328 @x=2091, @y=1847>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc0099663f8
+            @x=2092,
+            @y=1908>]>,
+       @description="FAIR">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00994dd30
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc0099ccfe0
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc0099b2ed8 @x=2062, @y=1832>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00999b788 @x=2060, @y=1744>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009998038 @x=2089, @y=1744>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009a1ca90
+            @x=2091,
+            @y=1831>]>,
+       @description="TRADE">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc0099eb9b8
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc009a71a68
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc009a57938 @x=2089, @y=2288>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009a54260 @x=2081, @y=1977>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009a38cb8 @x=2134, @y=1976>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009ac13b0
+            @x=2142,
+            @y=2287>]>,
+       @description="CHOCOLATE">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc009a8fdd8
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc009b15d48
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc009afb948 @x=2092, @y=1899>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009af8130 @x=2089, @y=1760>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009adc908 @x=2118, @y=1759>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009b64d80
+            @x=2121,
+            @y=1898>]>,
+       @description="CERTIFIED">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc009b2f978
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc009bb5708
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc009b9f868 @x=2126, @y=1727>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009b83cd0 @x=2167, @y=1727>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009b80210 @x=2167, @y=1943>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009c08d40
+            @x=2126,
+            @y=1943>]>,
+       @description="INGREDIENTS">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc009bd3ed8
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc009c59e48
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc009c580c0 @x=2126, @y=1525>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009c3caa0 @x=2167, @y=1525>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009c25300 @x=2167, @y=1677>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009ca9f10
+            @x=2126,
+            @y=1677>]>,
+       @description="CACA">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc009c8cfc8
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc009cff190
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc009cfd228 @x=2126, @y=1478>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009ce1ac8 @x=2167, @y=1478>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009cc62a0 @x=2167, @y=1501>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009d4ead8
+            @x=2126,
+            @y=1501>]>,
+       @description="O">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc009d31c30
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc009d9fb18
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc009d9dbb0 @x=2559, @y=2290>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009d823d8 @x=2556, @y=2129>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009d6ac38 @x=2696, @y=2127>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009def8c0
+            @x=2699,
+            @y=2288>]>,
+       @description="NET">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc009dd26a8
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc009db8820
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc009e427f0 @x=2554, @y=2073>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009e26f28 @x=2552, @y=1985>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009e0bae8 @x=2692, @y=1983>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009e084d8
+            @x=2694,
+            @y=2071>]>,
+       @description="WT">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc009e77360
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc009e594f0
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc009ee3308 @x=2553, @y=1945>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009ecbb90 @x=2551, @y=1811>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009ec8760 @x=2691, @y=1809>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009eacf88
+            @x=2693,
+            @y=1943>]>,
+       @description="2.5">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc009f195e8
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc009efdfc8
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc009f872c8 @x=2554, @y=1662>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009f85c48 @x=2681, @y=1662>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009f843c0 @x=2681, @y=1759>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009f68f30
+            @x=2554,
+            @y=1759>]>,
+       @description="OZ">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc009fcbf18
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc009fc9470
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc009fc8390 @x=2554, @y=1396>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009fae558 @x=2681, @y=1396>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc009faceb0 @x=2681, @y=1630>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00a02b6e8
+            @x=2554,
+            @y=1630>]>,
+       @description="(70g)">]>]>
+
+Completed 200 OK in 5527ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/v1/lookup/image" for 127.0.0.1 at 2016-05-01 01:45:14 -0700
+Processing by Api::V1::LookupController#image as JSON
+  Parameters: {"image"=>#<ActionDispatch::Http::UploadedFile:0x007fc00ada0710 @tempfile=#<Tempfile:/tmp/RackMultipart20160501-13082-10fi3r0.jpg>, @original_filename="test-image3.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image\"; filename=\"test-image3.jpg\"\r\nContent-Type: image/jpeg\r\n">, "go"=>"Submit"}
+Sending HTTP post https://vision.googleapis.com/v1/images:annotate?key=AIzaSyBecwRYnnAnvQ2yPPRt3wTgcJHhaef6oSQ
+200
+#<Hurley::Response POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyBecwRYnnAnvQ2yPPRt3wTgcJHhaef6oSQ == 200 (1609 bytes) 464ms>
+Success - #<Google::Apis::VisionV1::BatchAnnotateImagesResponse:0x007fc00ac3b870
+ @responses=
+  [#<Google::Apis::VisionV1::AnnotateImageResponse:0x007fc00ac39930
+    @logo_annotations=
+     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fc00acf78e0
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00acf4528
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc00ad1f750 @x=92, @y=125>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00ad1df90 @x=440, @y=125>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00ad1c708 @x=440, @y=262>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00ad0ed88 @x=92, @y=262>]>,
+       @description="Toblerone",
+       @mid="/m/02d7h9",
+       @score=0.840478>],
+    @text_annotations=
+     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b473ad8
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b471120
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc00b4703d8 @x=84, @y=207>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00ac9a708 @x=447, @y=207>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00ac98ea8 @x=447, @y=267>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00b48f670 @x=84, @y=267>]>,
+       @description="TOBLERONE\n",
+       @locale="id">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b48d578
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b47efa0
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fc00b47e280 @x=84, @y=207>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00b47cc28 @x=447, @y=207>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00ad03640 @x=447, @y=267>,
+           #<Google::Apis::VisionV1::Vertex:0x007fc00ad02038 @x=84, @y=267>]>,
+       @description="TOBLERONE">]>]>
+
+Completed 200 OK in 566ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-01 10:03:42 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 204ms (Views: 201.6ms | ActiveRecord: 0.0ms)
+=======
      [#<Google::Apis::VisionV1::EntityAnnotation:0x007fb3fbcc1a08
        @bounding_poly=
         #<Google::Apis::VisionV1::BoundingPoly:0x007fb3f958edc8
@@ -1141,3 +1545,4 @@ Success - #<Google::Apis::VisionV1::BatchAnnotateImagesResponse:0x007fb3f8a24320
        @description="SHORtcake">]>]>
 
 Completed 200 OK in 1836ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+>>>>>>> 8f4884732eeee396dedc2e8ac13ce4e88d676b52
