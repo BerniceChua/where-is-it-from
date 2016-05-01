@@ -5,3 +5,4 @@ config/google_cloud_api.yml
 .byebug_history
 
 .env
+.bundle/*
