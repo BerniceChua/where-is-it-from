@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @origin.country %>
+</p>
+
+<p>
+  <strong>Region:</strong>
+  <%= @origin.region %>
+</p>
+
+<%= link_to 'Edit', edit_origin_path(@origin) %> |
+<%= link_to 'Back', origins_path %>

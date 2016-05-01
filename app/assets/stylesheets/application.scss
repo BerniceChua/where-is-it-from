@@ -1,0 +1,62 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+//colors
+$teal: teal;
+$color_japanese_laurel_approx: slategray;
+$white: white;
+
+@media(min-width: 320px) {
+	body {
+		color: $white;
+		background: $teal;
+	}
+	button {
+		font-size: 3em;
+	}
+}
+@media(min-width: 600px) {
+	body {
+		color: $white;
+		background: $color_japanese_laurel_approx;
+	}
+}
+
+//colors
+$color_royal_purple_approx: rebeccapurple;
+$color_storm_dust_approx: #666;
+$color_gallery_approx: #eee;
+$color_celeste_approx: #ccc;
+$color_alto_approx: #ddd;
+
+.test {
+	color: $color_royal_purple_approx;
+}
+label.cameraButton {
+	display: inline-block;
+	margin: 1em 0;
+	padding: 0.5em;
+	border: 2px solid $color_storm_dust_approx;
+	border-color: $color_gallery_approx $color_celeste_approx $color_celeste_approx $color_gallery_approx;
+	background-color: $color_alto_approx;
+	&:active {
+		border-color: $color_celeste_approx $color_gallery_approx $color_gallery_approx $color_celeste_approx;
+	}
+	input[accept*="camera"] {
+		display: none;
+	}
+}
