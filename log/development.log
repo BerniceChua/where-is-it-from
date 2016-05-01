@@ -1,528 +1,915 @@
-
-
-Started GET "/" for 127.0.0.1 at 2016-05-01 01:40:53 -0700
-  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for ::1 at 2016-04-30 20:29:23 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by MainController#index as HTML
-  Rendered main/index.html.erb within layouts/application (6.8ms)
-Completed 200 OK in 21575ms (Views: 21524.1ms | ActiveRecord: 0.0ms)
+  Rendered main/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 4872ms (Views: 4856.6ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/assets/application.self-4a612775d495eed6ccfda81f4fc907ac11b20382e44113a6d2b2154e639e997a.css?body=1" for 127.0.0.1 at 2016-05-01 01:41:16 -0700
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 20:29:28 -0700
 
 
-Started POST "/api/v1/lookup/image" for 127.0.0.1 at 2016-05-01 01:43:46 -0700
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 20:29:28 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 20:29:28 -0700
+
+
+Started GET "/assets/brands.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:29:29 -0700
+
+
+Started GET "/assets/main.self-462e7d40ed42897bda6b3d8c7f4391f081d297d66df89ef0d8b5f8eb2f240703.js?body=1" for ::1 at 2016-04-30 20:29:29 -0700
+
+
+Started GET "/assets/application.self-4da8a18bf3e3fd31a4f76368c848464396a3f315f5293bcbffd543901501d9ae.css?body=1" for ::1 at 2016-04-30 20:29:29 -0700
+
+
+Started GET "/assets/origins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:29:29 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:29:29 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-30 20:29:29 -0700
+
+
+Started GET "/" for ::1 at 2016-04-30 20:30:47 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4da8a18bf3e3fd31a4f76368c848464396a3f315f5293bcbffd543901501d9ae.css?body=1" for ::1 at 2016-04-30 20:30:47 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 20:30:47 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 20:30:47 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 20:30:47 -0700
+
+
+Started GET "/assets/main.self-462e7d40ed42897bda6b3d8c7f4391f081d297d66df89ef0d8b5f8eb2f240703.js?body=1" for ::1 at 2016-04-30 20:30:47 -0700
+
+
+Started GET "/assets/brands.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:30:47 -0700
+
+
+Started GET "/assets/origins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:30:47 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:30:47 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-30 20:30:47 -0700
+
+
+Started GET "/" for ::1 at 2016-04-30 20:32:14 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 20:32:14 -0700
+
+
+Started GET "/assets/application.self-4da8a18bf3e3fd31a4f76368c848464396a3f315f5293bcbffd543901501d9ae.css?body=1" for ::1 at 2016-04-30 20:32:14 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 20:32:14 -0700
+
+
+Started GET "/assets/main.self-462e7d40ed42897bda6b3d8c7f4391f081d297d66df89ef0d8b5f8eb2f240703.js?body=1" for ::1 at 2016-04-30 20:32:14 -0700
+
+
+Started GET "/assets/brands.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:32:14 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 20:32:14 -0700
+
+
+Started GET "/assets/origins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:32:14 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:32:14 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-30 20:32:14 -0700
+
+
+Started GET "/" for ::1 at 2016-04-30 20:33:15 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 20:33:15 -0700
+
+
+Started GET "/assets/application.self-4da8a18bf3e3fd31a4f76368c848464396a3f315f5293bcbffd543901501d9ae.css?body=1" for ::1 at 2016-04-30 20:33:15 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 20:33:15 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 20:33:15 -0700
+
+
+Started GET "/assets/brands.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:33:15 -0700
+
+
+Started GET "/assets/main.self-462e7d40ed42897bda6b3d8c7f4391f081d297d66df89ef0d8b5f8eb2f240703.js?body=1" for ::1 at 2016-04-30 20:33:15 -0700
+
+
+Started GET "/assets/origins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:33:15 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:33:15 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-30 20:33:15 -0700
+
+
+Started GET "/" for ::1 at 2016-04-30 20:33:28 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4da8a18bf3e3fd31a4f76368c848464396a3f315f5293bcbffd543901501d9ae.css?body=1" for ::1 at 2016-04-30 20:33:29 -0700
+
+
+Started GET "/assets/brands.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:33:29 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 20:33:29 -0700
+
+
+Started GET "/assets/origins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:33:29 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-30 20:33:29 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 20:33:29 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 20:33:29 -0700
+
+
+Started GET "/assets/main.self-462e7d40ed42897bda6b3d8c7f4391f081d297d66df89ef0d8b5f8eb2f240703.js?body=1" for ::1 at 2016-04-30 20:33:29 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:33:29 -0700
+
+
+Started GET "/" for ::1 at 2016-04-30 20:36:57 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2010ms (Views: 2009.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 20:36:59 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 20:36:59 -0700
+
+
+Started GET "/assets/brands.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:36:59 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 20:36:59 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:36:59 -0700
+
+
+Started GET "/assets/origins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:36:59 -0700
+
+
+Started GET "/assets/application.self-1d82d70e2b0b901f72e9321f324e23cebe68ad554a5880de3bcf4cfdf833a99a.css?body=1" for ::1 at 2016-04-30 20:36:59 -0700
+
+
+Started GET "/assets/main.self-462e7d40ed42897bda6b3d8c7f4391f081d297d66df89ef0d8b5f8eb2f240703.js?body=1" for ::1 at 2016-04-30 20:36:59 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-30 20:36:59 -0700
+
+
+Started GET "/" for ::1 at 2016-04-30 20:37:29 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2000ms (Views: 1999.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b6e953c33a78fe5e833e02016ba0ee4775bffc3cc174e6fc1afa6c70dc7b3aac.css?body=1" for ::1 at 2016-04-30 20:37:31 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 20:37:31 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 20:37:31 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 20:37:31 -0700
+
+
+Started GET "/assets/brands.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:37:31 -0700
+
+
+Started GET "/assets/main.self-462e7d40ed42897bda6b3d8c7f4391f081d297d66df89ef0d8b5f8eb2f240703.js?body=1" for ::1 at 2016-04-30 20:37:31 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:37:31 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-30 20:37:31 -0700
+
+
+Started GET "/assets/origins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:37:31 -0700
+
+
+Started GET "/" for ::1 at 2016-04-30 20:37:56 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-b6e953c33a78fe5e833e02016ba0ee4775bffc3cc174e6fc1afa6c70dc7b3aac.css?body=1" for ::1 at 2016-04-30 20:37:56 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 20:37:56 -0700
+
+
+Started GET "/assets/brands.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:37:56 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 20:37:56 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 20:37:56 -0700
+
+
+Started GET "/assets/main.self-462e7d40ed42897bda6b3d8c7f4391f081d297d66df89ef0d8b5f8eb2f240703.js?body=1" for ::1 at 2016-04-30 20:37:56 -0700
+
+
+Started GET "/assets/origins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:37:56 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:37:56 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-30 20:37:56 -0700
+
+
+Started GET "/" for ::1 at 2016-04-30 20:41:05 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 844ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Undefined variable: "$mediumseagreen".):
+    2: <html>
+    3: <head>
+    4:   <title>Where's It From?</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <%= stylesheet_link_tag    'application', media: 'all', "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" => true %>
+  app/assets/stylesheets/application.scss:27
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___568448532249453262_70341995211360'
+
+
+  Rendered /Users/BaronKwan/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.0ms)
+  Rendered /Users/BaronKwan/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /Users/BaronKwan/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/BaronKwan/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (100.6ms)
+  Rendered /Users/BaronKwan/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/BaronKwan/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/BaronKwan/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/BaronKwan/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/BaronKwan/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (81.7ms)
+  Rendered /Users/BaronKwan/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/BaronKwan/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/BaronKwan/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (186.5ms)
+
+
+Started GET "/" for ::1 at 2016-04-30 20:41:27 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1973ms (Views: 1972.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2de1177ef302db1caf9c3ef453d0e8dc618a84ba8ca45f33e364b4892e13c321.css?body=1" for ::1 at 2016-04-30 20:41:29 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 20:41:29 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 20:41:29 -0700
+
+
+Started GET "/assets/main.self-462e7d40ed42897bda6b3d8c7f4391f081d297d66df89ef0d8b5f8eb2f240703.js?body=1" for ::1 at 2016-04-30 20:41:29 -0700
+
+
+Started GET "/assets/brands.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:41:29 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 20:41:29 -0700
+
+
+Started GET "/assets/origins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:41:29 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-30 20:41:29 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:41:29 -0700
+
+
+Started GET "/" for ::1 at 2016-04-30 20:42:30 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1933ms (Views: 1932.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5fb8f6e10f08aa3122352b0e0c70d0d177c70ef018496a62996915826fb6dd8f.css?body=1" for ::1 at 2016-04-30 20:42:32 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 20:42:32 -0700
+
+
+Started GET "/assets/main.self-462e7d40ed42897bda6b3d8c7f4391f081d297d66df89ef0d8b5f8eb2f240703.js?body=1" for ::1 at 2016-04-30 20:42:32 -0700
+
+
+Started GET "/assets/brands.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:42:32 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 20:42:32 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 20:42:32 -0700
+
+
+Started GET "/assets/origins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:42:32 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:42:33 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-30 20:42:33 -0700
+
+
+Started GET "/" for ::1 at 2016-04-30 20:52:55 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 625ms (Views: 610.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/v1/lookup/image" for ::1 at 2016-04-30 20:53:41 -0700
 Processing by Api::V1::LookupController#image as JSON
-  Parameters: {"image"=>#<ActionDispatch::Http::UploadedFile:0x007fbff815f8a0 @tempfile=#<Tempfile:/tmp/RackMultipart20160501-13082-1jgxjtu.jpg>, @original_filename="test-image3.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image\"; filename=\"test-image3.jpg\"\r\nContent-Type: image/jpeg\r\n">, "go"=>"Submit"}
-Sending HTTP post https://vision.googleapis.com/v1/images:annotate?key=AIzaSyBecwRYnnAnvQ2yPPRt3wTgcJHhaef6oSQ
+  Parameters: {"image"=>#<ActionDispatch::Http::UploadedFile:0x007fb3f89c4da8 @tempfile=#<Tempfile:/var/folders/yv/d5z_5cx11j5dksw69s3j2ry80000gn/T/RackMultipart20160430-32026-lqjpic.jpg>, @original_filename="test-image2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image\"; filename=\"test-image2.jpg\"\r\nContent-Type: image/jpeg\r\n">, "go"=>"Submit"}
+Sending HTTP post https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCqcwO-2qHZvX9uReSf0ytysucT7HYEPGU
 200
-#<Hurley::Response POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyBecwRYnnAnvQ2yPPRt3wTgcJHhaef6oSQ == 200 (1609 bytes) 536ms>
-Success - #<Google::Apis::VisionV1::BatchAnnotateImagesResponse:0x007fc00be77b88
+#<Hurley::Response POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCqcwO-2qHZvX9uReSf0ytysucT7HYEPGU == 200 (2562 bytes) 1516ms>
+Success - #<Google::Apis::VisionV1::BatchAnnotateImagesResponse:0x007fb3f9234a10
  @responses=
-  [#<Google::Apis::VisionV1::AnnotateImageResponse:0x007fc00be757e8
+  [#<Google::Apis::VisionV1::AnnotateImageResponse:0x007fb3f8a6e330
     @logo_annotations=
-     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fc00bd6a8d0
+     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f42716b8
        @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00bd5ba10
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3f93872c8
          @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00bd5ab10 @x=92, @y=125>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00bd59030 @x=440, @y=125>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00bd4bb38 @x=440, @y=262>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00bd4a058 @x=92, @y=262>]>,
-       @description="Toblerone",
-       @mid="/m/02d7h9",
-       @score=0.840478>],
-    @text_annotations=
-     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fc00be678a0
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00be64a60
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00be57f40 @x=84, @y=207>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00be56730 @x=447, @y=207>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00be54d18 @x=447, @y=267>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00be47708 @x=84, @y=267>]>,
-       @description="TOBLERONE\n",
-       @locale="id">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00be451b0
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00be36980
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00be359b8 @x=84, @y=207>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00be346f8 @x=447, @y=207>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00be26af8 @x=447, @y=267>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00be24ff0 @x=84, @y=267>]>,
-       @description="TOBLERONE">]>]>
-
-Completed 200 OK in 644ms (Views: 0.9ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/api/v1/lookup/image" for 127.0.0.1 at 2016-05-01 01:43:59 -0700
-Processing by Api::V1::LookupController#image as JSON
-  Parameters: {"image"=>#<ActionDispatch::Http::UploadedFile:0x007fc00bb95320 @tempfile=#<Tempfile:/tmp/RackMultipart20160501-13082-1it0csp.jpg>, @original_filename="IMG_5233.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image\"; filename=\"IMG_5233.jpg\"\r\nContent-Type: image/jpeg\r\n">, "go"=>"Submit"}
-Sending HTTP post https://vision.googleapis.com/v1/images:annotate?key=AIzaSyBecwRYnnAnvQ2yPPRt3wTgcJHhaef6oSQ
-200
-#<Hurley::Response POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyBecwRYnnAnvQ2yPPRt3wTgcJHhaef6oSQ == 200 (13151 bytes) 5318ms>
-Success - #<Google::Apis::VisionV1::BatchAnnotateImagesResponse:0x007fc00b27b708
- @responses=
-  [#<Google::Apis::VisionV1::AnnotateImageResponse:0x007fc00b259090
-    @text_annotations=
-     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b24b418
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b248808
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b23bb08 @x=479, @y=165>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b23a500 @x=2701, @y=165>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b238db8 @x=2701, @y=2290>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b22b848
-            @x=479,
-            @y=2290>]>,
-       @description=
-        "ICHO\nhazelnut\nchunk\nMilk chocolate with\nhazelnuts & sea salt\nMADE WITH\n53%\nORGANIC\nFAIR TRADE\nCHOCOLATE\nCERTIFIED\nINGREDIENTS CACA O\nNET WT 2.5 OZ (70g)\n",
-       @locale="en">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b229700
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b21b038
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b21a2c8 @x=479, @y=165>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b218b80 @x=901, @y=165>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b9a7540 @x=901, @y=1373>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b9a5e20
-            @x=479,
-            @y=1373>]>,
-       @description="ICHO">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b99fcc8
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b99d540
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b99c708 @x=1289, @y=2287>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b217280 @x=1281, @y=1496>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b215ae8 @x=1464, @y=1494>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b214170
-            @x=1472,
-            @y=2285>]>,
-       @description="hazelnut">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b9864a8
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b97fa18
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b97e8c0 @x=1466, @y=1732>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b97c958 @x=1647, @y=1732>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b96f258 @x=1647, @y=2288>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b96dc50
-            @x=1466,
-            @y=2288>]>,
-       @description="chunk">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b963840
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b961158
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b960438 @x=1684, @y=2285>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b956d20 @x=1682, @y=2156>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b9555d8 @x=1751, @y=2155>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b956488
-            @x=1753,
-            @y=2284>]>,
-       @description="Milk">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b945ea8
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b937948
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b936b60 @x=1682, @y=2126>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b935440 @x=1677, @y=1822>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b927e58 @x=1746, @y=1821>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b926788
-            @x=1751,
-            @y=2125>]>,
-       @description="chocolate">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b9246e0
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b915f78
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b915230 @x=1676, @y=1791>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b90bbb8 @x=1674, @y=1651>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b90a588 @x=1743, @y=1650>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b908f58
-            @x=1745,
-            @y=1790>]>,
-       @description="with">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b8faea8
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b8477e0
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b846868 @x=1765, @y=2285>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b8450a8 @x=1760, @y=1973>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b837c78 @x=1829, @y=1972>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b8365f8
-            @x=1834,
-            @y=2284>]>,
-       @description="hazelnuts">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b834500
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b825d48
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b824fb0 @x=1761, @y=1949>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b8179a0 @x=1760, @y=1903>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b8162a8 @x=1829, @y=1902>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b814c28
-            @x=1830,
-            @y=1948>]>,
-       @description="&">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b806b78
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b804238
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b7f7268 @x=1759, @y=1880>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b7f5300 @x=1757, @y=1780>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b7e77a0 @x=1826, @y=1779>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b7e60f8
-            @x=1828,
-            @y=1879>]>,
-       @description="sea">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b7e4fc8
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b7d5758
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b7d4970 @x=1757, @y=1751>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b7c7478 @x=1755, @y=1630>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b7c5d58 @x=1824, @y=1629>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b7c46d8
-            @x=1826,
-            @y=1750>]>,
-       @description="salt">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b7b6628
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b7a7e20
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b7a7060 @x=1979, @y=2288>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b7a5968 @x=1975, @y=2141>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b7a4310 @x=2028, @y=2140>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b796dc8
-            @x=2032,
-            @y=2287>]>,
-       @description="MADE">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b794c80
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b78e4c0
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b78d728 @x=1974, @y=1981>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b78c0d0 @x=2026, @y=1981>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b77e958 @x=2026, @y=2105>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b77d080
-            @x=1974,
-            @y=2105>]>,
-       @description="WITH">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b1fefa0
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b1fc7a0
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b1efaa0 @x=2000, @y=1670>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b1ee380 @x=1992, @y=1491>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b1ecc88 @x=2070, @y=1488>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b1df6c8
-            @x=2078,
-            @y=1667>]>,
-       @description="53%">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b1dd558
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b1d2c98
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b1d1f50 @x=2036, @y=2255>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b1d0920 @x=2025, @y=2011>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b1c72a8 @x=2074, @y=2009>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b1c5c78
-            @x=2085,
-            @y=2253>]>,
-       @description="ORGANIC">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b1b78a8
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b1b5008
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b1b44c8 @x=2063, @y=1909>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b1aeb90 @x=2062, @y=1847>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b1ad538 @x=2091, @y=1847>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b76ff20
-            @x=2092,
-            @y=1908>]>,
-       @description="FAIR">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b76dd60
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b1a7610
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b1a67d8 @x=2062, @y=1832>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b1a5180 @x=2060, @y=1744>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b197c88 @x=2089, @y=1744>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b196018
-            @x=2091,
-            @y=1831>]>,
-       @description="TRADE">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b187a90
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b185240
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b1844a8 @x=2089, @y=2288>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b176ce0 @x=2081, @y=1977>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b1755e8 @x=2134, @y=1976>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b16bf70
-            @x=2142,
-            @y=2287>]>,
-       @description="CHOCOLATE">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b169f18
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b15f7e8
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b15eac8 @x=2092, @y=1899>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b15d4c0 @x=2089, @y=1760>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b75fda0 @x=2118, @y=1759>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b75e3d8
-            @x=2121,
-            @y=1898>]>,
-       @description="CERTIFIED">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b75c2e0
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b74dc40
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b74cf20 @x=2126, @y=1727>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b73f8c0 @x=2167, @y=1727>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b73e0d8 @x=2167, @y=1943>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b73c940
-            @x=2126,
-            @y=1943>]>,
-       @description="INGREDIENTS">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b72e728
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b71fd68
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b71efa8 @x=2126, @y=1525>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b71d928 @x=2167, @y=1525>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b713d10 @x=2167, @y=1677>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b7126e0
-            @x=2126,
-            @y=1677>]>,
-       @description="CACA">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b710688
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b705e40
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b7050f8 @x=2126, @y=1478>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00ad4bad0 @x=2167, @y=1478>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00ad4a478 @x=2167, @y=1501>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00ad48da8
-            @x=2126,
-            @y=1501>]>,
-       @description="O">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b6f6cd8
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b6f4668
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b6e38e0 @x=2559, @y=2290>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b6e21e8 @x=2556, @y=2129>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b6e0a00 @x=2696, @y=2127>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b0d3130
-            @x=2699,
-            @y=2288>]>,
-       @description="NET">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b0d0a48
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b0ca1c0
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b0c9388 @x=2554, @y=2073>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b0bbd50 @x=2552, @y=1985>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b0ba568 @x=2692, @y=1983>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b0b8e70
-            @x=2694,
-            @y=2071>]>,
-       @description="WT">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00b0aab40
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00b09bd20
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00b09afd8 @x=2553, @y=1945>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b099958 @x=2551, @y=1811>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00b098300 @x=2691, @y=1809>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00aff2d38
-            @x=2693,
-            @y=1943>]>,
-       @description="2.5">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00aff0d30
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00afde248
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00afdd4d8 @x=2554, @y=1662>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00afcfef0 @x=2681, @y=1662>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00afce8e8 @x=2681, @y=1759>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00afcd2e0
-            @x=2554,
-            @y=1759>]>,
-       @description="OZ">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00afc7278
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00afc4bb8
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00afbbe00 @x=2554, @y=1396>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00afba6e0 @x=2681, @y=1396>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00afb8fc0 @x=2681, @y=1630>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00afab8e8
-            @x=2554,
-            @y=1630>]>,
-       @description="(70g)">]>]>
-
-Completed 200 OK in 5915ms (Views: 1.1ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/api/v1/lookup/image" for 127.0.0.1 at 2016-05-01 01:44:16 -0700
-Processing by Api::V1::LookupController#image as JSON
-  Parameters: {"image"=>#<ActionDispatch::Http::UploadedFile:0x007fc00a696b40 @tempfile=#<Tempfile:/tmp/RackMultipart20160501-13082-juw895.jpg>, @original_filename="IMG_5234.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image\"; filename=\"IMG_5234.jpg\"\r\nContent-Type: image/jpeg\r\n">, "go"=>"Submit"}
-Sending HTTP post https://vision.googleapis.com/v1/images:annotate?key=AIzaSyBecwRYnnAnvQ2yPPRt3wTgcJHhaef6oSQ
-200
-#<Hurley::Response POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyBecwRYnnAnvQ2yPPRt3wTgcJHhaef6oSQ == 200 (5372 bytes) 3677ms>
-Success - #<Google::Apis::VisionV1::BatchAnnotateImagesResponse:0x007fc00a0ee1e8
- @responses=
-  [#<Google::Apis::VisionV1::AnnotateImageResponse:0x007fc009fb9520
-    @text_annotations=
-     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fc00a4271e8
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00a424010
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00a40f228 @x=89, @y=1611>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a40db30 @x=939, @y=1611>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a40c460 @x=939, @y=2271>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a3fedd8 @x=89, @y=2271>]>,
-       @description=
-        "Milk Chocolate Covered\nHoney Roasted\nAlmonds\nNet Wt. 3oz (85g)\n",
-       @locale="en">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00a3fcd08
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00a3d2580
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00a3d17e8 @x=232, @y=1611>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a3d00f0 @x=359, @y=1611>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a3bea30 @x=359, @y=1666>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a3bd2e8
-            @x=232,
-            @y=1666>]>,
-       @description="Milk">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00a3ab1b0
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00a3a8a00
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00a393c18 @x=377, @y=1611>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a392570 @x=671, @y=1611>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a390ea0 @x=671, @y=1666>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a37b7a8
-            @x=377,
-            @y=1666>]>,
-       @description="Chocolate">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00a379688
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00a35afa8
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00a35a288 @x=686, @y=1611>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a358c58 @x=933, @y=1611>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a32f600 @x=933, @y=1666>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a32df80
-            @x=686,
-            @y=1666>]>,
-       @description="Covered">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00a317ed8
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00a315778
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00a314a58 @x=235, @y=1689>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a2e73a0 @x=526, @y=1689>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a2e5d20 @x=526, @y=1794>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a2e46a0
-            @x=235,
-            @y=1794>]>,
-       @description="Honey">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00a2ce5d0
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00a2b7ec0
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00a2b7150 @x=567, @y=1689>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a2b5a30 @x=930, @y=1689>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a2b4310 @x=930, @y=1794>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a282cc0
-            @x=567,
-            @y=1794>]>,
-       @description="Roasted">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00a280cb8
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00a26a5a8
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00a269810 @x=216, @y=1792>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a268168 @x=936, @y=1786>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a222ac8 @x=937, @y=1934>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a2214c0
-            @x=217,
-            @y=1940>]>,
-       @description="Almonds">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00a1df430
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00a1dcd48
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00a1a3f20 @x=89, @y=2167>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a1a2738 @x=202, @y=2165>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a1a0f50 @x=204, @y=2269>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a17f788 @x=91, @y=2271>]>,
-       @description="Net">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00a17d5f0
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00a162e08
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00a162020 @x=229, @y=2165>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a160900 @x=322, @y=2164>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a1330e0 @x=324, @y=2268>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a1319e8
-            @x=231,
-            @y=2269>]>,
-       @description="Wt.">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00a117750
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00a114d98
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00a0f7f90 @x=339, @y=2164>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a0f67a8 @x=447, @y=2162>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a0f4a70 @x=449, @y=2266>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a0b3020
-            @x=341,
-            @y=2268>]>,
-       @description="3oz">,
-      #<Google::Apis::VisionV1::EntityAnnotation:0x007fc00a0b0d70
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc00a07a360
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00a0794d8 @x=466, @y=2162>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a047c30 @x=629, @y=2159>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a0463d0 @x=631, @y=2263>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00a044b70
-            @x=468,
-            @y=2266>]>,
-       @description="(85g)">]>]>
-
-Completed 200 OK in 4027ms (Views: 1.0ms | ActiveRecord: 0.0ms)
-
-
-Started POST "/api/v1/lookup/image" for 127.0.0.1 at 2016-05-01 01:44:31 -0700
-Processing by Api::V1::LookupController#image as JSON
-  Parameters: {"image"=>#<ActionDispatch::Http::UploadedFile:0x007fc0095ab100 @tempfile=#<Tempfile:/tmp/RackMultipart20160501-13082-brwjbh.jpg>, @original_filename="test-image2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image\"; filename=\"test-image2.jpg\"\r\nContent-Type: image/jpeg\r\n">, "go"=>"Submit"}
-Sending HTTP post https://vision.googleapis.com/v1/images:annotate?key=AIzaSyBecwRYnnAnvQ2yPPRt3wTgcJHhaef6oSQ
-200
-#<Hurley::Response POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyBecwRYnnAnvQ2yPPRt3wTgcJHhaef6oSQ == 200 (2562 bytes) 853ms>
-Success - #<Google::Apis::VisionV1::BatchAnnotateImagesResponse:0x007fc0093913b0
- @responses=
-  [#<Google::Apis::VisionV1::AnnotateImageResponse:0x007fc00935ad10
-    @logo_annotations=
-     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fc0090bf150
-       @bounding_poly=
-        #<Google::Apis::VisionV1::BoundingPoly:0x007fc0090a45d0
-         @vertices=
-          [#<Google::Apis::VisionV1::Vertex:0x007fc00908a658 @x=43, @y=54>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc00906ef48 @x=677, @y=54>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc009057848 @x=677, @y=282>,
-           #<Google::Apis::VisionV1::Vertex:0x007fc0090540f8 @x=43, @y=282>]>,
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3f93762c0 @x=43, @y=54>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f42ba458 @x=677, @y=54>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f42aa4b8 @x=677, @y=282>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f93d61e8 @x=43, @y=282>]>,
        @description="Cadbury",
        @mid="/m/03hnyy",
        @score=0.79896861>],
     @text_annotations=
+     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f8a5d788
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3f926f458
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3f926d4f0 @x=157, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f925e018 @x=591, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f92ae630 @x=591, @y=322>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f929eb90 @x=157, @y=322>]>,
+       @description="DAIRY MILK\nSHORtcake\n",
+       @locale="en">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f928db10
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3f92cfb50
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3f92cdbe8 @x=157, @y=220>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f92be530 @x=361, @y=184>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f930ee40 @x=374, @y=258>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f92ff698 @x=170, @y=294>]>,
+       @description="DAIRY">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f92ee3e8
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3f933c3b8
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3f932def8 @x=381, @y=170>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f931e480 @x=577, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f423ac30 @x=591, @y=217>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f422b140 @x=395, @y=252>]>,
+       @description="MILK">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f934e0b8
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3f4260200
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3f9356150 @x=270, @y=296>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f424a888 @x=394, @y=285>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f42a1f70 @x=396, @y=311>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f4283228 @x=272, @y=322>]>,
+       @description="SHORtcake">]>]>
+
+Completed 200 OK in 1589ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-30 20:55:59 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 50ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/v1/lookup/image" for ::1 at 2016-04-30 20:56:05 -0700
+Processing by Api::V1::LookupController#image as JSON
+  Parameters: {"image"=>#<ActionDispatch::Http::UploadedFile:0x007fb3f954bf78 @tempfile=#<Tempfile:/var/folders/yv/d5z_5cx11j5dksw69s3j2ry80000gn/T/RackMultipart20160430-32026-u3eixm.jpg>, @original_filename="test-image2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image\"; filename=\"test-image2.jpg\"\r\nContent-Type: image/jpeg\r\n">}
+Sending HTTP post https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCqcwO-2qHZvX9uReSf0ytysucT7HYEPGU
+200
+#<Hurley::Response POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCqcwO-2qHZvX9uReSf0ytysucT7HYEPGU == 200 (2562 bytes) 1104ms>
+Success - #<Google::Apis::VisionV1::BatchAnnotateImagesResponse:0x007fb3f59c6250
+ @responses=
+  [#<Google::Apis::VisionV1::AnnotateImageResponse:0x007fb3f59cf9b8
+    @logo_annotations=
+     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f95e7900
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3f95e4ca0
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3f95f7f30 @x=43, @y=54>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f95f6928 @x=677, @y=54>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f95f5320 @x=677, @y=282>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f439bcc8 @x=43, @y=282>]>,
+       @description="Cadbury",
+       @mid="/m/03hnyy",
+       @score=0.79896861>],
+    @text_annotations=
+     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f59cdb68
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3f438b1c0
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3f438a4a0 @x=157, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f4388e98 @x=591, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f8deb850 @x=591, @y=322>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f8dea248 @x=157, @y=322>]>,
+       @description="DAIRY MILK\nSHORtcake\n",
+       @locale="en">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f8de8240
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3f8df1b88
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3f8df0e68 @x=157, @y=220>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f95c7830 @x=361, @y=184>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f95c6228 @x=374, @y=258>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f95c4c20 @x=170, @y=294>]>,
+       @description="DAIRY">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f95debc0
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3f95dc550
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3f59d77d0 @x=381, @y=170>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f59d61c8 @x=577, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f59d4bc0 @x=591, @y=217>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f59df570 @x=395, @y=252>]>,
+       @description="MILK">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f59dd568
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3f8dfae90
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3f8dfa170 @x=270, @y=296>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f8df8b68 @x=394, @y=285>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f59f7508 @x=396, @y=311>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f59f5f00 @x=272, @y=322>]>,
+       @description="SHORtcake">]>]>
+
+Completed 200 OK in 1167ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-30 20:57:54 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 43ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 20:57:55 -0700
+
+
+Started GET "/assets/application.self-5fb8f6e10f08aa3122352b0e0c70d0d177c70ef018496a62996915826fb6dd8f.css?body=1" for ::1 at 2016-04-30 20:57:55 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 20:57:55 -0700
+
+
+Started GET "/assets/brands.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:57:55 -0700
+
+
+Started GET "/assets/main.self-462e7d40ed42897bda6b3d8c7f4391f081d297d66df89ef0d8b5f8eb2f240703.js?body=1" for ::1 at 2016-04-30 20:57:55 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 20:57:55 -0700
+
+
+Started GET "/assets/origins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:57:55 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-30 20:57:55 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 20:57:55 -0700
+
+
+Started POST "/api/v1/lookup/image" for ::1 at 2016-04-30 20:58:07 -0700
+Processing by Api::V1::LookupController#image as JSON
+  Parameters: {"image"=>#<ActionDispatch::Http::UploadedFile:0x007fb3f4459ea8 @tempfile=#<Tempfile:/var/folders/yv/d5z_5cx11j5dksw69s3j2ry80000gn/T/RackMultipart20160430-32026-yfu93u.jpg>, @original_filename="test-image2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image\"; filename=\"test-image2.jpg\"\r\nContent-Type: image/jpeg\r\n">}
+Sending HTTP post https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCqcwO-2qHZvX9uReSf0ytysucT7HYEPGU
+200
+#<Hurley::Response POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCqcwO-2qHZvX9uReSf0ytysucT7HYEPGU == 200 (2562 bytes) 1169ms>
+Success - #<Google::Apis::VisionV1::BatchAnnotateImagesResponse:0x007fb3f8f02518
+ @responses=
+  [#<Google::Apis::VisionV1::AnnotateImageResponse:0x007fb3fb98f880
+    @logo_annotations=
+     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fb3fb9c45f8
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3f8ee4f40
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3f8ee40e0 @x=43, @y=54>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fb9cea80 @x=677, @y=54>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fb9cd478 @x=677, @y=282>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f8edfd88 @x=43, @y=282>]>,
+       @description="Cadbury",
+       @mid="/m/03hnyy",
+       @score=0.79896861>],
+    @text_annotations=
+     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fb3fb98da30
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3f8efaa20
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3f8ef96c0 @x=157, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f8efb830 @x=591, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fb9a6aa8 @x=591, @y=322>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fb9a54a0 @x=157, @y=322>]>,
+       @description="DAIRY MILK\nSHORtcake\n",
+       @locale="en">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f4443248
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3f4440a20
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3fb9afc98 @x=157, @y=220>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fb9ae690 @x=361, @y=184>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fb9ad088 @x=374, @y=258>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f96bf850 @x=170, @y=294>]>,
+       @description="DAIRY">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f96bc948
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3fb9b67c8
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3fb9b5aa8 @x=381, @y=170>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fb9b44a0 @x=577, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f96aecd0 @x=591, @y=217>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f96ad268 @x=395, @y=252>]>,
+       @description="MILK">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3fb9bef40
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3fb9bc8d0
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3f8eef8f0 @x=270, @y=296>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f8eed708 @x=394, @y=285>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f8eeea90 @x=396, @y=311>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fb9c6ba0 @x=272, @y=322>]>,
+       @description="SHORtcake">]>]>
+
+Completed 200 OK in 1232ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-30 21:05:21 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 100ms (Views: 99.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5fb8f6e10f08aa3122352b0e0c70d0d177c70ef018496a62996915826fb6dd8f.css?body=1" for ::1 at 2016-04-30 21:05:21 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 21:05:21 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 21:05:21 -0700
+
+
+Started GET "/assets/origins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 21:05:21 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 21:05:21 -0700
+
+
+Started GET "/assets/brands.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 21:05:21 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 21:05:21 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-30 21:05:21 -0700
+
+
+Started GET "/assets/main.self-d5ab37501a0cf099222a9b7fb9b6c67be689de30dff2a392f8e308c1cba22930.js?body=1" for ::1 at 2016-04-30 21:05:21 -0700
+
+
+Started GET "/" for ::1 at 2016-04-30 21:05:31 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 100ms (Views: 98.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 21:05:31 -0700
+
+
+Started GET "/assets/application.self-5fb8f6e10f08aa3122352b0e0c70d0d177c70ef018496a62996915826fb6dd8f.css?body=1" for ::1 at 2016-04-30 21:05:31 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 21:05:31 -0700
+
+
+Started GET "/assets/brands.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 21:05:31 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 21:05:31 -0700
+
+
+Started GET "/assets/main.self-603be4e416b8ae38021f8991cb4d7893543b177abcca53c62629d286f658ed87.js?body=1" for ::1 at 2016-04-30 21:05:31 -0700
+
+
+Started GET "/assets/origins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 21:05:31 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 21:05:31 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-30 21:05:31 -0700
+
+
+Started GET "/" for ::1 at 2016-04-30 21:08:24 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 190ms (Views: 189.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 21:08:25 -0700
+
+
+Started GET "/assets/brands.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 21:08:25 -0700
+
+
+Started GET "/assets/main.self-1e738931ead82d89b6010c3464015873b24e3a6241df72f74bf36c2055a1544c.js?body=1" for ::1 at 2016-04-30 21:08:25 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 21:08:25 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 21:08:25 -0700
+
+
+Started GET "/assets/application.self-5fb8f6e10f08aa3122352b0e0c70d0d177c70ef018496a62996915826fb6dd8f.css?body=1" for ::1 at 2016-04-30 21:08:25 -0700
+
+
+Started GET "/assets/origins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 21:08:25 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 21:08:25 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-30 21:08:25 -0700
+
+
+Started POST "/api/v1/lookup/image" for ::1 at 2016-04-30 21:08:32 -0700
+Processing by Api::V1::LookupController#image as JSON
+  Parameters: {"image"=>#<ActionDispatch::Http::UploadedFile:0x007fb3fc327640 @tempfile=#<Tempfile:/var/folders/yv/d5z_5cx11j5dksw69s3j2ry80000gn/T/RackMultipart20160430-32026-1wq3mha.jpg>, @original_filename="test-image2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image\"; filename=\"test-image2.jpg\"\r\nContent-Type: image/jpeg\r\n">}
+Sending HTTP post https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCqcwO-2qHZvX9uReSf0ytysucT7HYEPGU
+200
+#<Hurley::Response POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCqcwO-2qHZvX9uReSf0ytysucT7HYEPGU == 200 (2562 bytes) 1207ms>
+Success - #<Google::Apis::VisionV1::BatchAnnotateImagesResponse:0x007fb3fc272290
+ @responses=
+  [#<Google::Apis::VisionV1::AnnotateImageResponse:0x007fb3fc2cfa08
+    @logo_annotations=
+     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f5b97020
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3f5b94398
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3f45ab5b8 @x=43, @y=54>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f45a9fb0 @x=677, @y=54>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f45a89a8 @x=677, @y=282>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f45c3348 @x=43, @y=282>]>,
+       @description="Cadbury",
+       @mid="/m/03hnyy",
+       @score=0.79896861>],
+    @text_annotations=
+     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fb3fc2cdbb8
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3fbc3b098
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3fbc3a260 @x=157, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fbc38a50 @x=591, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fbc6b2e8 @x=591, @y=322>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fbc69ce0 @x=157, @y=322>]>,
+       @description="DAIRY MILK\nSHORtcake\n",
+       @locale="en">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3fc26bc60
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3fc2695a0
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3fc268880 @x=157, @y=220>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fbc43248 @x=361, @y=184>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fbc41c40 @x=374, @y=258>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fbc40638 @x=170, @y=294>]>,
+       @description="DAIRY">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f5b8e4e8
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3fc26fe28
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3fc26f108 @x=381, @y=170>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fc26db00 @x=577, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fc26c4f8 @x=591, @y=217>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f45fee70 @x=395, @y=252>]>,
+       @description="MILK">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f45fcda0
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3fbc325d8
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3fbc318b8 @x=270, @y=296>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fbc30288 @x=394, @y=285>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f45bac48 @x=396, @y=311>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f45b95f0 @x=272, @y=322>]>,
+       @description="SHORtcake">]>]>
+
+Completed 200 OK in 1315ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-30 21:09:32 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 120ms (Views: 119.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5fb8f6e10f08aa3122352b0e0c70d0d177c70ef018496a62996915826fb6dd8f.css?body=1" for ::1 at 2016-04-30 21:09:33 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 21:09:33 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 21:09:33 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 21:09:33 -0700
+
+
+Started GET "/assets/brands.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 21:09:33 -0700
+
+
+Started GET "/assets/origins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 21:09:33 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 21:09:33 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-30 21:09:33 -0700
+
+
+Started GET "/assets/main.self-2afc1e0987c118927bf32ed436f46419e570db87d45d72401c2545174eb08941.js?body=1" for ::1 at 2016-04-30 21:09:33 -0700
+
+
+Started POST "/api/v1/lookup/image" for ::1 at 2016-04-30 21:09:37 -0700
+Processing by Api::V1::LookupController#image as JSON
+  Parameters: {"image"=>#<ActionDispatch::Http::UploadedFile:0x007fb3fb829608 @tempfile=#<Tempfile:/var/folders/yv/d5z_5cx11j5dksw69s3j2ry80000gn/T/RackMultipart20160430-32026-1h2r855.jpg>, @original_filename="test-image2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image\"; filename=\"test-image2.jpg\"\r\nContent-Type: image/jpeg\r\n">}
+Sending HTTP post https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCqcwO-2qHZvX9uReSf0ytysucT7HYEPGU
+200
+#<Hurley::Response POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCqcwO-2qHZvX9uReSf0ytysucT7HYEPGU == 200 (2562 bytes) 1148ms>
+Success - #<Google::Apis::VisionV1::BatchAnnotateImagesResponse:0x007fb3f5aa3e70
+ @responses=
+  [#<Google::Apis::VisionV1::AnnotateImageResponse:0x007fb3f5aa1620
+    @logo_annotations=
+     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f8f9b650
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3fb907778
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3fb906a58 @x=43, @y=54>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fb905428 @x=677, @y=54>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f8f93d60 @x=677, @y=282>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f8f92690 @x=43, @y=282>]>,
+       @description="Cadbury",
+       @mid="/m/03hnyy",
+       @score=0.79896861>],
+    @text_annotations=
+     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f97a36e0
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3f97a0cb0
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3fb8d7d70 @x=157, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fb8d6768 @x=591, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fb8d5160 @x=591, @y=322>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f979ba30 @x=157, @y=322>]>,
+       @description="DAIRY MILK\nSHORtcake\n",
+       @locale="en">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f97994b0
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3f5aa6b48
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3f5aa5e28 @x=157, @y=220>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f5aa4820 @x=361, @y=184>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f97930d8 @x=374, @y=258>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f9791a58 @x=170, @y=294>]>,
+       @description="DAIRY">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3fb8e78d8
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3fb8e5268
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3fb8e4548 @x=381, @y=170>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f978ab90 @x=577, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f9789240 @x=591, @y=217>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f5aab788 @x=395, @y=252>]>,
+       @description="MILK">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f5aa9758
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3f97830c0
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3f9782288 @x=270, @y=296>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f9780c30 @x=394, @y=285>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fb8ff5a0 @x=396, @y=311>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fb8fdf98 @x=272, @y=322>]>,
+       @description="SHORtcake">]>]>
+
+Completed 200 OK in 1212ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-30 21:10:40 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 113ms (Views: 112.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5fb8f6e10f08aa3122352b0e0c70d0d177c70ef018496a62996915826fb6dd8f.css?body=1" for ::1 at 2016-04-30 21:10:40 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 21:10:40 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 21:10:40 -0700
+
+
+Started GET "/assets/brands.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 21:10:40 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 21:10:40 -0700
+
+
+Started GET "/assets/main.self-71af9f515514e07f987ad99d756fb205ae289c01ad77e929f6a35a91e5fff136.js?body=1" for ::1 at 2016-04-30 21:10:40 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 21:10:40 -0700
+
+
+Started GET "/assets/origins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 21:10:40 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-30 21:10:40 -0700
+
+
+Started POST "/api/v1/lookup/image" for ::1 at 2016-04-30 21:10:46 -0700
+Processing by Api::V1::LookupController#image as JSON
+  Parameters: {"image"=>#<ActionDispatch::Http::UploadedFile:0x007fb3f95bec08 @tempfile=#<Tempfile:/var/folders/yv/d5z_5cx11j5dksw69s3j2ry80000gn/T/RackMultipart20160430-32026-1guzc5a.jpg>, @original_filename="test-image2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image\"; filename=\"test-image2.jpg\"\r\nContent-Type: image/jpeg\r\n">}
+Sending HTTP post https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCqcwO-2qHZvX9uReSf0ytysucT7HYEPGU
+200
+#<Hurley::Response POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCqcwO-2qHZvX9uReSf0ytysucT7HYEPGU == 200 (2562 bytes) 1216ms>
+Success - #<Google::Apis::VisionV1::BatchAnnotateImagesResponse:0x007fb3f8d8e588
+ @responses=
+  [#<Google::Apis::VisionV1::AnnotateImageResponse:0x007fb3fbcc3858
+    @logo_annotations=
+     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fb3fbce12e0
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3f8d86568
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3f8d857d0 @x=43, @y=54>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f8d84128 @x=677, @y=54>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fb99aac8 @x=677, @y=282>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fb9994c0 @x=43, @y=282>]>,
+>>>>>>> 8f4884732eeee396dedc2e8ac13ce4e88d676b52
+       @description="Cadbury",
+       @mid="/m/03hnyy",
+       @score=0.79896861>],
+    @text_annotations=
+<<<<<<< HEAD
      [#<Google::Apis::VisionV1::EntityAnnotation:0x007fc0093427d8
        @bounding_poly=
         #<Google::Apis::VisionV1::BoundingPoly:0x007fc0093286f8
@@ -926,3 +1313,236 @@ Started GET "/" for 127.0.0.1 at 2016-05-01 10:03:42 -0700
 Processing by MainController#index as HTML
   Rendered main/index.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 204ms (Views: 201.6ms | ActiveRecord: 0.0ms)
+=======
+     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fb3fbcc1a08
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3f958edc8
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3f958dc98 @x=157, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f958c140 @x=591, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f468ea98 @x=591, @y=322>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f468d490 @x=157, @y=322>]>,
+       @description="DAIRY MILK\nSHORtcake\n",
+       @locale="en">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f59bf428
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3f59bcd40
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3f46a7f48 @x=157, @y=220>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f46a6940 @x=361, @y=184>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f46a5338 @x=374, @y=258>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f9577c90 @x=170, @y=294>]>,
+       @description="DAIRY">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f9575558
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3fc38eae8
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3fc38ddc8 @x=381, @y=170>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fc38c7c0 @x=577, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f8d8b090 @x=591, @y=217>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f8d899c0 @x=395, @y=252>]>,
+       @description="MILK">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3fbcdb868
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3fbcd91f8
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3fbcd84d8 @x=270, @y=296>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f4362b58 @x=394, @y=285>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f4361190 @x=396, @y=311>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fbce3888 @x=272, @y=322>]>,
+       @description="SHORtcake">]>]>
+
+Completed 200 OK in 1284ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-30 21:11:34 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 108ms (Views: 106.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5fb8f6e10f08aa3122352b0e0c70d0d177c70ef018496a62996915826fb6dd8f.css?body=1" for ::1 at 2016-04-30 21:11:35 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 21:11:35 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 21:11:35 -0700
+
+
+Started GET "/assets/brands.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 21:11:35 -0700
+
+
+Started GET "/assets/main.self-11866fc5c1b8a7e901fae1b4d3d15b4aca8c4dd29390eb6af3b84d52ad6e1bee.js?body=1" for ::1 at 2016-04-30 21:11:35 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 21:11:35 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 21:11:35 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-30 21:11:35 -0700
+
+
+Started GET "/assets/origins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 21:11:35 -0700
+
+
+Started POST "/api/v1/lookup/image" for ::1 at 2016-04-30 21:11:39 -0700
+Processing by Api::V1::LookupController#image as JSON
+  Parameters: {"image"=>#<ActionDispatch::Http::UploadedFile:0x007fb3f5e5d610 @tempfile=#<Tempfile:/var/folders/yv/d5z_5cx11j5dksw69s3j2ry80000gn/T/RackMultipart20160430-32026-idta6.jpg>, @original_filename="test-image2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image\"; filename=\"test-image2.jpg\"\r\nContent-Type: image/jpeg\r\n">}
+Sending HTTP post https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCqcwO-2qHZvX9uReSf0ytysucT7HYEPGU
+200
+#<Hurley::Response POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCqcwO-2qHZvX9uReSf0ytysucT7HYEPGU == 200 (2562 bytes) 1209ms>
+Success - #<Google::Apis::VisionV1::BatchAnnotateImagesResponse:0x007fb3fbe307b8
+ @responses=
+  [#<Google::Apis::VisionV1::AnnotateImageResponse:0x007fb3f5e8e940
+    @logo_annotations=
+     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f42c2f40
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3fe019b68
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3fe018e48 @x=43, @y=54>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f596d2e0 @x=677, @y=54>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fe022c90 @x=677, @y=282>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fe021688 @x=43, @y=282>]>,
+       @description="Cadbury",
+       @mid="/m/03hnyy",
+       @score=0.79896861>],
+    @text_annotations=
+     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f5e8caf0
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3fc7d2c08
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3fc7d1ee8 @x=157, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fc7d08e0 @x=591, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fc7dbd30 @x=591, @y=322>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fc7da728 @x=157, @y=322>]>,
+       @description="DAIRY MILK\nSHORtcake\n",
+       @locale="en">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3fc7d8720
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3fc7e2a68
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3fc7e1d48 @x=157, @y=220>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fc7e0740 @x=361, @y=184>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fc7ebc80 @x=374, @y=258>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fc7ea678 @x=170, @y=294>]>,
+       @description="DAIRY">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3fc7e8670
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3fc7f2a30
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3fc7f1d10 @x=381, @y=170>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fc7f0708 @x=577, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fe003ae8 @x=591, @y=217>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fe0024e0 @x=395, @y=252>]>,
+       @description="MILK">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3fe0004d8
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3fe00a848
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3fe009b28 @x=270, @y=296>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fe008520 @x=394, @y=285>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fe0138f8 @x=396, @y=311>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3fe0122f0 @x=272, @y=322>]>,
+       @description="SHORtcake">]>]>
+
+Completed 200 OK in 1306ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-30 21:13:49 -0700
+Processing by MainController#index as HTML
+  Rendered main/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 94ms (Views: 93.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5fb8f6e10f08aa3122352b0e0c70d0d177c70ef018496a62996915826fb6dd8f.css?body=1" for ::1 at 2016-04-30 21:13:49 -0700
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-30 21:13:49 -0700
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-30 21:13:49 -0700
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 21:13:49 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-30 21:13:49 -0700
+
+
+Started GET "/assets/brands.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 21:13:49 -0700
+
+
+Started GET "/assets/origins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-30 21:13:50 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-04-30 21:13:50 -0700
+
+
+Started GET "/assets/main.self-3163ccc571c950f70c921c552db3bc01a2ecbf42fc28a082bc637865df3c3061.js?body=1" for ::1 at 2016-04-30 21:13:50 -0700
+
+
+Started POST "/api/v1/lookup/image" for ::1 at 2016-04-30 21:13:55 -0700
+Processing by Api::V1::LookupController#image as JSON
+  Parameters: {"image"=>#<ActionDispatch::Http::UploadedFile:0x007fb3fe29d9c0 @tempfile=#<Tempfile:/var/folders/yv/d5z_5cx11j5dksw69s3j2ry80000gn/T/RackMultipart20160430-32026-fekwkg.jpg>, @original_filename="test-image2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image\"; filename=\"test-image2.jpg\"\r\nContent-Type: image/jpeg\r\n">}
+Sending HTTP post https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCqcwO-2qHZvX9uReSf0ytysucT7HYEPGU
+200
+#<Hurley::Response POST https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCqcwO-2qHZvX9uReSf0ytysucT7HYEPGU == 200 (2562 bytes) 1772ms>
+Success - #<Google::Apis::VisionV1::BatchAnnotateImagesResponse:0x007fb3f8a24320
+ @responses=
+  [#<Google::Apis::VisionV1::AnnotateImageResponse:0x007fb3ff04d890
+    @logo_annotations=
+     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f89e7880
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3ff0a66e8
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3ff0a59c8 @x=43, @y=54>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3ff0a43c0 @x=677, @y=54>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f89dc340 @x=677, @y=282>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3ff0aec58 @x=43, @y=282>]>,
+       @description="Cadbury",
+       @mid="/m/03hnyy",
+       @score=0.79896861>],
+    @text_annotations=
+     [#<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f8a1f168
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3ff06e9c8
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3ff06dca8 @x=157, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3ff06c6a0 @x=591, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f8a15820 @x=591, @y=322>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3ff077320 @x=157, @y=322>]>,
+       @description="DAIRY MILK\nSHORtcake\n",
+       @locale="en">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3ff075318
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3f8a0c220
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3ff07f390 @x=157, @y=220>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3ff07dd88 @x=361, @y=184>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3ff07c780 @x=374, @y=258>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f8a05ad8 @x=170, @y=294>]>,
+       @description="DAIRY">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3ff086a28
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3ff0843b8
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3f89fe4b8 @x=381, @y=170>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3ff08f5d8 @x=577, @y=135>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3ff08dfd0 @x=591, @y=217>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3ff08c9c8 @x=395, @y=252>]>,
+       @description="MILK">,
+      #<Google::Apis::VisionV1::EntityAnnotation:0x007fb3f89f4328
+       @bounding_poly=
+        #<Google::Apis::VisionV1::BoundingPoly:0x007fb3ff095aa0
+         @vertices=
+          [#<Google::Apis::VisionV1::Vertex:0x007fb3ff094d80 @x=270, @y=296>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3f89ee5b8 @x=394, @y=285>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3ff09f898 @x=396, @y=311>,
+           #<Google::Apis::VisionV1::Vertex:0x007fb3ff09e290 @x=272, @y=322>]>,
+       @description="SHORtcake">]>]>
+
+Completed 200 OK in 1836ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+>>>>>>> 8f4884732eeee396dedc2e8ac13ce4e88d676b52
