@@ -16,12 +16,14 @@
 @import "bootstrap";
 
 //colors
-$blue: blue;
-$color_japanese_laurel_approx: green;
+$teal: teal;
+$color_japanese_laurel_approx: slategray;
+$white: white;
 
 @media(min-width: 320px) {
 	body {
-		background: $blue;
+		color: $white;
+		background: $teal;
 	}
 	button {
 		font-size: 3em;
@@ -29,6 +31,7 @@ $color_japanese_laurel_approx: green;
 }
 @media(min-width: 600px) {
 	body {
+		color: $white;
 		background: $color_japanese_laurel_approx;
 	}
 }
