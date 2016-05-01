@@ -1,1 +1,15 @@
-_alternative.html.erb
+<p>This Brand <h1 style="color: red;"><%= brand_name %></h1> MAY have been the result of labor trafficking.</p>
+
+<p>Please try these alternatives instead:</p>
+<ul style="list-style: none;">
+
+<% @brands.each do |brand| %>
+  <li><%= brand.name %><br>
+    <% if brand %>
+      <a href="https://twitter.com/intent/tweet?button_hashtag=FairTrade&text=I%20found%20this%20<%= brand.category %>%20from%20%23<%= brand.name %>%20made" class="twitter-hashtag-button" data-size="large">Tweet #FairTrade</a><br>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <%end%>
+  </li><br>
+<%end%>
+
+</ul>

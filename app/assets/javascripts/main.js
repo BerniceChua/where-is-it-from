@@ -24,8 +24,11 @@ $(function () {
         processData: false,
         contentType: false,
         type: 'POST',
+        dataType: 'html',
         success: function(response){
             console.log(response);
+            $('#responseDiv').children().html(response);
+
             // console.log(response.logo);
             // console.log(response.text);
             // if (response.logo) {
@@ -33,7 +36,7 @@ $(function () {
             // } else {
             //     console.log("deal with the response text");
             // }
-            
+
         }
       });
     };
