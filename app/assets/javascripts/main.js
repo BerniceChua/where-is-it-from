@@ -17,22 +17,26 @@ $(function () {
       form.append('image', file);
       // xhr.open('post', 'api/v1/lookup/image', true);
       // xhr.send(form);
-      // xhr.
+      
       request = $.ajax({
         url: 'api/v1/lookup/image',
         data: form,
         processData: false,
         contentType: false,
         type: 'POST',
+        dataType: 'html',
         success: function(response){
             console.log(response);
-            console.log(response.logo);
-            console.log(response.text);
-            if (response.logo) {
-                console.log("there is a logo recognized!");
-            } else {
-                console.log("deal with the response text");
-            }
+            $('#responseDiv').children().html(response);
+
+            // console.log(response.logo);
+            // console.log(response.text);
+            // if (response.logo) {
+            //     console.log("there is a logo recognized!");
+            // } else {
+            //     console.log("deal with the response text");
+            // }
+
         }
       });
     };
