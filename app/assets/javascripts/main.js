@@ -29,14 +29,6 @@ $(function () {
             console.log(response);
             $('#responseDiv').children().html(response);
 
-            // console.log(response.logo);
-            // console.log(response.text);
-            // if (response.logo) {
-            //     console.log("there is a logo recognized!");
-            // } else {
-            //     console.log("deal with the response text");
-            // }
-
         }
       });
     };
@@ -51,10 +43,28 @@ $(function () {
             ctx = c.getContext('2d'),
             img = new Image();
 
+          var MAX_WIDTH = "80%";
+          var MAX_HEIGHT = "50px";
+          var width = img.width;
+          var height = img.height;
+
+          if (width > height) {
+            if (width > MAX_WIDTH) {
+              height *= MAX_WIDTH / width;
+              width = MAX_WIDTH;
+            }
+          } else {
+            if (height > MAX_HEIGHT) {
+              width *= MAX_HEIGHT / height;
+              height = MAX_HEIGHT;
+            }
+          }
+
+
         img.onload = function() {
-          c.width = img.width;
-          c.height = img.height;
-          ctx.drawImage(img, 0, 0);
+          c.width = width;
+          c.height = height;
+          ctx.drawImage(img, 0, 0, width, height);
         };
 
         img.src = dataURL;
@@ -72,7 +82,7 @@ $(function () {
       };
 
       img.src = imgURL;
-      document.body.appendChild(img);
+      $( "#responseDiv" ).append($(img).attr('width', '200px').attr('height', '200px'));
     }
 
 
