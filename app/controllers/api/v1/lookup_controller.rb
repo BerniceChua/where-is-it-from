@@ -16,12 +16,6 @@ class Api::V1::LookupController < ApplicationController
 
     vision_response = service.annotate_image(batch_annotate)
 
-    # def clearUp(string)
-    # end
-
-    # @brands = Brand.all
-    # binding.pry
-
     # If all goes well...
     response = {}
     if vision_response.responses[0].text_annotations
@@ -34,17 +28,18 @@ class Api::V1::LookupController < ApplicationController
 
     if (response['logo'])
         brand_name = response['logo']
+        # binding.pry
+        # if Brand.where(:name => brand_name ).exists?
+        # if Brand.where('name LIKE ?', '%#{brand_name}%').exists?
+        searching_result = Brand.where("name like ?","%#{brand_name}%").all
+        if searching_result.exists?
 
-        if Brand.where(:name => brand_name ).exists?
-            # binding.pry
-            render json: response
+            p "!" * 80
             # render partial: '_good', local { brand_name: brand_name }
+            render partial: "main/good", :formats => ['html'], locals: { brand_name: brand_name }
+            # render partial: "main/alternative", :formats => ['html'], locals: { brand_name: brand_name }
         else
             @brands = Brand.all.sample(5)
-            # binding.pry
-
-            # render json: response
-            # , locals: { brand_name: brand_name }
             render partial: "main/alternative", :formats => ['html'], locals: { brand_name: brand_name }
             #send alternative items
         end
