@@ -1,0 +1,15 @@
+# Go to https://console.cloud.google.com/apis/credentials to generate an API key, I think.
+
+default: &default
+  google_cloud_api_key: <%= ENV['my_google_cloud_api_key'] %>
+
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+
+production:
+  <<: *default
+
