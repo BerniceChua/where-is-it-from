@@ -7,7 +7,7 @@ class Api::V1::LookupController < ApplicationController
   def image
     service = Vision::VisionService.new
 
-    service.key = YAML.load_file(Rails.root.join('config/google_cloud_api.yml'))[Rails.env]['google_cloud_api_key']
+    service.key = YAML.load(ERB.new(File.read(Rails.root.join('config/google_cloud_api.yml'))).result)[Rails.env]['google_cloud_api_key']
 
     image = Vision::Image.new(content: params["image"].tempfile.open.to_a.join)
     features = [Vision::Feature.new(max_results: 6, type: "TEXT_DETECTION"), Vision::Feature.new(max_results: 6, type: "LOGO_DETECTION")]
