@@ -87,6 +87,7 @@ In addition to promoting fair trade products, we also make all of our code and d
 - Joe Mellin
   - [GitHub](https://github.com/joemellin)
   - [LinkedIn](https://www.linkedin.com/in/joemellin)
+
 ### Subject Matter Advisors
 - [Nicole Allen](http://www.athackit.org/#!mentors-and-judges/p0xzv)
 - Kohl Gill
