@@ -1,3 +1,5 @@
-<p>This product is ethically sourced.</p>
+<p>This brand <h1 style="color: "><%= brand_name %></h1> is ethically sourced.</p>
 <p>Thank you for supporting the fight against labor trafficking.</p>
-<%= erb :"/main/_twitter", layout: false %>
+<br>
+<a href="https://twitter.com/intent/tweet?button_hashtag=FairTrade&text=I%20found%20this%20%20from%20%23<%= brand_name %>" class="twitter-hashtag-button" data-size="large">Tweet #FairTrade</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>

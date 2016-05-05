@@ -7,7 +7,7 @@ class Api::V1::LookupController < ApplicationController
   def image
     service = Vision::VisionService.new
 
-    service.key = YAML.load_file(Rails.root.join('config/google_cloud_api.yml'))[Rails.env]['google_cloud_api_key']
+    service.key = YAML.load(ERB.new(File.read(Rails.root.join('config/google_cloud_api.yml'))).result)[Rails.env]['google_cloud_api_key']
 
     image = Vision::Image.new(content: params["image"].tempfile.open.to_a.join)
     features = [Vision::Feature.new(max_results: 6, type: "TEXT_DETECTION"), Vision::Feature.new(max_results: 6, type: "LOGO_DETECTION")]
@@ -15,12 +15,6 @@ class Api::V1::LookupController < ApplicationController
     batch_annotate = Vision::BatchAnnotateImagesRequest.new(requests: [annotate_image])
 
     vision_response = service.annotate_image(batch_annotate)
-
-    # def clearUp(string)
-    # end
-
-    # @brands = Brand.all
-    # binding.pry
 
     # If all goes well...
     response = {}
@@ -34,17 +28,18 @@ class Api::V1::LookupController < ApplicationController
 
     if (response['logo'])
         brand_name = response['logo']
+        # binding.pry
+        # if Brand.where(:name => brand_name ).exists?
+        # if Brand.where('name LIKE ?', '%#{brand_name}%').exists?
+        searching_result = Brand.where("name like ?","%#{brand_name}%").all
+        if searching_result.exists?
 
-        if Brand.where(:name => brand_name ).exists?
-            # binding.pry
-            render json: response
+            p "!" * 80
             # render partial: '_good', local { brand_name: brand_name }
+            render partial: "main/good", :formats => ['html'], locals: { brand_name: brand_name }
+            # render partial: "main/alternative", :formats => ['html'], locals: { brand_name: brand_name }
         else
             @brands = Brand.all.sample(5)
-            # binding.pry
-
-            # render json: response
-            # , locals: { brand_name: brand_name }
             render partial: "main/alternative", :formats => ['html'], locals: { brand_name: brand_name }
             #send alternative items
         end
