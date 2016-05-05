@@ -29,14 +29,6 @@ $(function () {
             console.log(response);
             $('#responseDiv').children().html(response);
 
-            // console.log(response.logo);
-            // console.log(response.text);
-            // if (response.logo) {
-            //     console.log("there is a logo recognized!");
-            // } else {
-            //     console.log("deal with the response text");
-            // }
-
         }
       });
     };
