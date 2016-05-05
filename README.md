@@ -1,6 +1,6 @@
 # "Where's It From?"
 
-[whereisitfrom.herokuapp.com/](http://whereisitfrom.herokuapp.com/)
+[whereisitfrom.herokuapp.com](http://whereisitfrom.herokuapp.com/)
 
 Our tool empowers regular people like you and me to fight human trafficking, by helping us make informed decisions about the things we buy, through a simple question: "Where's it from?".
 
@@ -75,6 +75,7 @@ In addition to promoting fair trade products, we also make all of our code and d
 - Benjamin Juang
   - [GitHub](https://github.com/benjuang)
   - [LinkedIn](https://www.linkedin.com/in/benjuang)
+
 ### Technical Advisors
 - Jesse Swedko
   - [GitHub](https://github.com/jszwedko)
@@ -97,6 +98,8 @@ In addition to promoting fair trade products, we also make all of our code and d
 - Walter Kerr
   - [GitHub](https://github.com/WALTERKERR)
   - [LinkedIn](https://www.linkedin.com/in/walter-kerr-2163336a)
+
+
 License
 ----
 
